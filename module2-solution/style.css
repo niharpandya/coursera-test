@@ -1,7 +1,5 @@
-<style>
-
 body{
-	background-color= "#d2cdcc";
+	background-color: #e0b223;
 }
 /********** Base styles **********/
 * {
@@ -10,130 +8,85 @@ body{
 
 h1 {
   margin-bottom: 15px;
+  text-align: center;
 }
 
-p {
+.container1 {
+  width: 100%;
+}
+
+.menu {
+  border: 1px solid black;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 15px;
-  padding: 10px;
-  float: left;
+  font-family: Helvetica;
+  background-color: #0cc6f8;
 }
 
-div#container1{
-position: relative;
+.title {
+  font-weight: bold;
+  padding:2px 20px 2px 20px;
+  float:right;
+  clear: left;
+  font-size:1.25em;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
 
-#p1 {
-  background-color: #A52A2A;
-  width: 400px;
-  height: 300px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  padding: 10px;
+.title1 {
+  background-color:#d74677;
 }
 
-#section1{
-	background-color: #f5be35;
-	text-align: center;
-	width: 80px;
-	height: 20px;
-	position: absolute;
-	top:10px;
-	left:330px;
+.title2 {
+  background-color:#46d751;
 }
 
-/*div#p1{
-	position: relative;
-}*/
-
-div#container2{
-	position: relative;
-}
-#p2 {
-  background-color: #DEB887;
-  width: 400px;
-  height: 300px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  padding: 10px;
-}
-#section2{
-	background-color: purple;
-	text-align: center;
-	width: 50px;
-	height: 20px;
-	position: absolute;
-	top:10px;
-	left:780px;
+.title3 {
+  background-color:#d6de27;
 }
 
-div#container3{
-position: relative;
-}
-
-#p3 {
-  background-color: green;
-  width: 400px;
-  height: 300px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  padding: 10px;
-}
-
-#section3{
-	background-color: orange;
-	text-align: center;
-	width: 50px;
-	height: 20px;
-	position: absolute;
-	top:10px;
-	left:1200px;
+.Data {
+  padding: 0 5px 0 5px;
 }
 
 /********** Large devices only **********/
-
-@media(min-width: 992px)
-{
-
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+  .mar-lg {
+    width: 96%;
+  }
 }
 /********** Medium devices only **********/
-@media(min-width: 768px) and (max-width: 991px)
-{
-	#p1{
-		width: 47%;
-		padding: 7px;
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .mar-md {
+    width: 96%;
+  }
+  .mar-md-full {
+    width: 98%;
+  }
+}
 
-	}
-	#p2{
-		width: 47%;
-		padding: 7px;
-	}
-
-	#p3{
-		width: 725px;
-		height:160px;
-	}
-
-	@media(max-width: 767px)
-{
-	#p1{
-		width: 47%;
-		padding: 7px;
-	}
-	#p2{
-		width: 47%;
-		padding: 7px;
-	}
-
-	#p3{
-		width: 725px;
-		height:160px;
-	}
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+    float: left;
+  }
+  .mar-sm {
+    width: 96%;
+  }
 }
 }
-</style>
