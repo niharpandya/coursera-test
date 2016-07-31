@@ -57,6 +57,13 @@ body {
   opacity: .8;
 }
 
+#menu-categories-title {
+  margin-top: -5px;
+  margin-bottom: 14px;
+  font-size: 1.9em;
+  color: grey;
+}
+
 @media (max-width: 768px) {
 
   .col-sm-12 {
